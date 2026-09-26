@@ -1,0 +1,664 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Analyst Career Roadmap</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Inter, Arial, sans-serif;
+      background: #f6f8fb;
+      color: #172033;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: auto;
+      color: #cbd5e1;
+      font-size: 18px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .intro {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      margin-bottom: 40px;
+      border: 1px solid #e5e7eb;
+    }
+
+    .intro h2 {
+      margin-bottom: 10px;
+    }
+
+    .roadmap {
+      position: relative;
+    }
+
+    .roadmap::before {
+      content: "";
+      position: absolute;
+      left: 25px;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: #dbe3ef;
+    }
+
+    .step {
+      position: relative;
+      padding-left: 75px;
+      margin-bottom: 35px;
+    }
+
+    .number {
+      position: absolute;
+      left: 7px;
+      top: 0;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: #2563eb;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      z-index: 2;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 5px 20px rgba(15, 23, 42, 0.04);
+    }
+
+    .card h3 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    .duration {
+      display: inline-block;
+      background: #eff6ff;
+      color: #1d4ed8;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+
+    .card h4 {
+      margin: 18px 0 8px;
+      font-size: 16px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 15px;
+    }
+
+    .tool {
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      padding: 6px 11px;
+      border-radius: 7px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .project {
+      margin-top: 18px;
+      padding: 16px;
+      background: #f8fafc;
+      border-left: 4px solid #2563eb;
+      border-radius: 8px;
+    }
+
+    .milestone {
+      background: #111827;
+      color: white;
+      border-radius: 16px;
+      padding: 35px;
+      margin-top: 45px;
+    }
+
+    .milestone h2 {
+      margin-bottom: 15px;
+    }
+
+    .milestone li {
+      color: #d1d5db;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 35px;
+    }
+
+    .skill-box {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 22px;
+    }
+
+    .skill-box h3 {
+      margin-bottom: 8px;
+    }
+
+    .job-ready {
+      margin-top: 45px;
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      padding: 30px;
+      border-radius: 16px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    @media (max-width: 800px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      .skills {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Data Analyst Career Roadmap</h1>
+    <p>
+      A professional, job-oriented roadmap from beginner fundamentals
+      to portfolio development and junior Data Analyst readiness.
+    </p>
+  </header>
+
+  <main class="container">
+
+    <section class="intro">
+      <h2>Career Objective</h2>
+      <p>
+        Build the technical, analytical, statistical and business skills
+        required to work as a Junior Data Analyst and create a foundation
+        for future careers in Data Engineering, Analytics Engineering or
+        Data Science.
+      </p>
+    </section>
+
+    <section class="roadmap">
+
+      <!-- STEP 1 -->
+      <div class="step">
+        <div class="number">1</div>
+
+        <div class="card">
+          <h3>Excel & Spreadsheet Analytics</h3>
+          <span class="duration">1–2 Weeks</span>
+
+          <p>
+            Start with spreadsheet-based data analysis and learn how
+            businesses organize, clean and analyze operational data.
+          </p>
+
+          <h4>Learn</h4>
+          <ul>
+            <li>Data types and spreadsheet fundamentals</li>
+            <li>Sorting and filtering</li>
+            <li>IF, SUMIF/SUMIFS, COUNTIF/COUNTIFS</li>
+            <li>XLOOKUP and INDEX/MATCH</li>
+            <li>Text and date functions</li>
+            <li>Data validation</li>
+            <li>Conditional formatting</li>
+            <li>Pivot Tables and Pivot Charts</li>
+            <li>Basic dashboards</li>
+            <li>Power Query fundamentals</li>
+          </ul>
+
+          <div class="tools">
+            <span class="tool">Microsoft Excel</span>
+            <span class="tool">Google Sheets</span>
+            <span class="tool">Power Query</span>
+          </div>
+
+          <div class="project">
+            <strong>Project:</strong>
+            Build a monthly sales analysis dashboard using raw sales data.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="step">
+        <div class="number">2</div>
+
+        <div class="card">
+          <h3>SQL & Relational Databases</h3>
+          <span class="duration">3–5 Weeks</span>
+
+          <p>
+            SQL is one of the core skills required for professional
+            Data Analyst roles.
+          </p>
+
+          <h4>Learn</h4>
+          <ul>
+            <li>Database and relational database concepts</li>
+            <li>SELECT, WHERE and ORDER BY</li>
+            <li>GROUP BY and HAVING</li>
+            <li>Aggregate functions</li>
+            <li>INNER, LEFT, RIGHT and FULL JOIN</li>
+            <li>CASE WHEN</li>
+            <li>Subqueries</li>
+            <li>Common Table Expressions (CTEs)</li>
+            <li>UNION and UNION ALL</li>
+            <li>Date and time functions</li>
+            <li>Window functions</li>
+            <li>Basic query optimization</li>
+          </ul>
+
+          <div class="tools">
+            <span class="tool">PostgreSQL</span>
+            <span class="tool">MySQL</span>
+            <span class="tool">SQL</span>
+          </div>
+
+          <div class="project">
+            <strong>Project:</strong>
+            Analyze an e-commerce database containing customers,
+            orders, products and payments.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="step">
+        <div class="number">3</div>
+
+        <div class="card">
+          <h3>Statistics for Data Analysis</h3>
+          <span class="duration">1–2 Weeks</span>
+
+          <p>
+            Learn enough statistics to interpret data correctly and
+            communicate reliable insights.
+          </p>
+
+          <h4>Learn</h4>
+          <ul>
+            <li>Mean, median and mode</li>
+            <li>Range and percentiles</li>
+            <li>Variance and standard deviation</li>
+            <li>Probability fundamentals</li>
+            <li>Normal distribution</li>
+            <li>Correlation</li>
+            <li>Sampling</li>
+            <li>Confidence intervals</li>
+            <li>Hypothesis testing</li>
+            <li>Statistical significance</li>
+          </ul>
+
+          <div class="project">
+            <strong>Project:</strong>
+            Analyze customer purchasing behavior and determine
+            statistically meaningful differences between customer groups.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 4 -->
+      <div class="step">
+        <div class="number">4</div>
+
+        <div class="card">
+          <h3>Power BI & Business Intelligence</h3>
+          <span class="duration">2–4 Weeks</span>
+
+          <p>
+            Learn to transform business data into interactive dashboards
+            and reports.
+          </p>
+
+          <h4>Learn</h4>
+          <ul>
+            <li>Importing data</li>
+            <li>Power Query</li>
+            <li>Data cleaning</li>
+            <li>Data modeling</li>
+            <li>Relationships</li>
+            <li>Star schema fundamentals</li>
+            <li>DAX fundamentals</li>
+            <li>Measures and calculated columns</li>
+            <li>KPIs</li>
+            <li>Interactive reports</li>
+            <li>Dashboard design</li>
+            <li>Publishing and sharing reports</li>
+          </ul>
+
+          <div class="tools">
+            <span class="tool">Power BI</span>
+            <span class="tool">Power Query</span>
+            <span class="tool">DAX</span>
+          </div>
+
+          <div class="project">
+            <strong>Project:</strong>
+            Create an executive sales dashboard showing revenue,
+            profit, customers, products and monthly trends.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 5 -->
+      <div class="step">
+        <div class="number">5</div>
+
+        <div class="card">
+          <h3>Python for Data Analysis</h3>
+          <span class="duration">3–5 Weeks</span>
+
+          <p>
+            Python adds automation, advanced data cleaning and
+            exploratory analysis capabilities.
+          </p>
+
+          <h4>Learn</h4>
+          <ul>
+            <li>Python fundamentals</li>
+            <li>Variables and data structures</li>
+            <li>Functions</li>
+            <li>Loops and conditions</li>
+            <li>File handling</li>
+            <li>Exception handling</li>
+            <li>NumPy fundamentals</li>
+            <li>Pandas</li>
+            <li>Data cleaning</li>
+            <li>Missing values</li>
+            <li>Grouping and aggregation</li>
+            <li>Exploratory Data Analysis</li>
+            <li>Data visualization</li>
+          </ul>
+
+          <div class="tools">
+            <span class="tool">Python</span>
+            <span class="tool">Pandas</span>
+            <span class="tool">NumPy</span>
+            <span class="tool">Matplotlib</span>
+            <span class="tool">Jupyter</span>
+          </div>
+
+          <div class="project">
+            <strong>Project:</strong>
+            Perform complete exploratory analysis on a customer
+            churn dataset using Python.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 6 -->
+      <div class="step">
+        <div class="number">6</div>
+
+        <div class="card">
+          <h3>Data Cleaning & Exploratory Analysis</h3>
+          <span class="duration">1–2 Weeks</span>
+
+          <h4>Learn</h4>
+          <ul>
+            <li>Identifying duplicate records</li>
+            <li>Handling missing values</li>
+            <li>Detecting outliers</li>
+            <li>Standardizing inconsistent data</li>
+            <li>Data transformation</li>
+            <li>Feature creation</li>
+            <li>Exploratory Data Analysis (EDA)</li>
+            <li>Finding trends and patterns</li>
+          </ul>
+
+          <div class="project">
+            <strong>Project:</strong>
+            Take a messy real-world dataset and document the complete
+            cleaning and analysis process.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 7 -->
+      <div class="step">
+        <div class="number">7</div>
+
+        <div class="card">
+          <h3>Business & Analytical Thinking</h3>
+          <span class="duration">Ongoing</span>
+
+          <p>
+            A professional analyst does more than create charts.
+            You need to understand what the business is trying to solve.
+          </p>
+
+          <h4>Learn</h4>
+          <ul>
+            <li>Understanding business requirements</li>
+            <li>Defining KPIs</li>
+            <li>Asking analytical questions</li>
+            <li>Root-cause analysis</li>
+            <li>Trend analysis</li>
+            <li>Customer analysis</li>
+            <li>Revenue and profitability analysis</li>
+            <li>Communicating insights</li>
+            <li>Data storytelling</li>
+          </ul>
+
+          <div class="project">
+            <strong>Project:</strong>
+            Analyze declining company revenue and present possible
+            data-supported explanations to management.
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 8 -->
+      <div class="step">
+        <div class="number">8</div>
+
+        <div class="card">
+          <h3>Portfolio Development</h3>
+          <span class="duration">3–4 Weeks</span>
+
+          <h4>Build 4–6 Professional Projects</h4>
+
+          <ul>
+            <li>Sales Performance Dashboard</li>
+            <li>E-commerce SQL Analysis</li>
+            <li>Customer Churn Analysis</li>
+            <li>Marketing Campaign Analysis</li>
+            <li>Financial / Revenue Analysis</li>
+            <li>Restaurant Business Analytics</li>
+          </ul>
+
+          <h4>Every project should include</h4>
+
+          <ul>
+            <li>Business problem</li>
+            <li>Dataset description</li>
+            <li>Data cleaning</li>
+            <li>Analysis methodology</li>
+            <li>SQL/Python work</li>
+            <li>Dashboard or visualizations</li>
+            <li>Key findings</li>
+            <li>Business recommendations based on evidence</li>
+          </ul>
+
+          <div class="tools">
+            <span class="tool">GitHub</span>
+            <span class="tool">Power BI</span>
+            <span class="tool">SQL</span>
+            <span class="tool">Python</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 9 -->
+      <div class="step">
+        <div class="number">9</div>
+
+        <div class="card">
+          <h3>Professional Job Preparation</h3>
+          <span class="duration">2–3 Weeks</span>
+
+          <h4>Prepare</h4>
+          <ul>
+            <li>Data Analyst resume</li>
+            <li>LinkedIn profile</li>
+            <li>GitHub portfolio</li>
+            <li>Project explanations</li>
+            <li>SQL interview questions</li>
+            <li>Excel interview questions</li>
+            <li>Power BI questions</li>
+            <li>Statistics questions</li>
+            <li>Business case studies</li>
+            <li>Behavioral interview preparation</li>
+          </ul>
+
+          <h4>Target Roles</h4>
+          <ul>
+            <li>Junior Data Analyst</li>
+            <li>Data Analyst</li>
+            <li>Business Data Analyst</li>
+            <li>BI Analyst</li>
+            <li>Reporting Analyst</li>
+            <li>Product Analyst — Junior</li>
+            <li>Marketing Analyst</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="milestone">
+      <h2>Job-Ready Skill Stack</h2>
+
+      <ul>
+        <li><strong>Excel:</strong> Advanced</li>
+        <li><strong>SQL:</strong> Intermediate to Advanced</li>
+        <li><strong>Power BI:</strong> Intermediate</li>
+        <li><strong>Statistics:</strong> Fundamentals</li>
+        <li><strong>Python:</strong> Intermediate</li>
+        <li><strong>Data Visualization:</strong> Intermediate</li>
+        <li><strong>Business Analysis:</strong> Fundamentals to Intermediate</li>
+        <li><strong>Communication:</strong> Strong</li>
+        <li><strong>Git/GitHub:</strong> Basic</li>
+      </ul>
+    </section>
+
+    <section class="skills">
+
+      <div class="skill-box">
+        <h3>Core Skills</h3>
+        <p>
+          Excel, SQL, Power BI, Python, Statistics,
+          Data Cleaning and Visualization.
+        </p>
+      </div>
+
+      <div class="skill-box">
+        <h3>Professional Skills</h3>
+        <p>
+          Communication, presentation, business understanding,
+          problem solving and analytical thinking.
+        </p>
+      </div>
+
+      <div class="skill-box">
+        <h3>Portfolio</h3>
+        <p>
+          4–6 strong projects demonstrating real-world
+          analytical workflows.
+        </p>
+      </div>
+
+    </section>
+
+    <section class="job-ready">
+      <h2>When Are You Job Ready?</h2>
+
+      <p>
+        You are ready to start applying when you can independently:
+      </p>
+
+      <ul>
+        <li>Clean a raw dataset</li>
+        <li>Write intermediate SQL queries</li>
+        <li>Analyze data using Excel or Python</li>
+        <li>Build a professional Power BI dashboard</li>
+        <li>Calculate and explain important KPIs</li>
+        <li>Identify trends and anomalies</li>
+        <li>Explain your findings clearly</li>
+        <li>Complete a business case study</li>
+        <li>Present your portfolio projects confidently</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      Data Analyst Career Roadmap · Build skills · Build projects ·
+      Demonstrate impact
+    </p>
+  </footer>
+
+</body>
+</html>
+```
